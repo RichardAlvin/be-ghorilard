@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>List API backend</h1>
+    <table border="1", cellpadding="10">
+        <tr>
+            <th>No</th>
+            <th>API</th>
+            <th>Method</th>
+            <th>Input</th>
+            <th>Function</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>https://ghorilard.herokuapp.com/</td>
+            <td>GET</td>
+            <td>Null</td>
+            <td>Dashboard info API backend Ghorilard</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>https://ghorilard.herokuapp.com/register/</td>
+            <td>GET</td>
+            <td>Null</td>
+            <td>Tampilan Register View</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>https://ghorilard.herokuapp.com/register/</td>
+            <td>POST</td>
+            <td>nama_user, email_user, password</td>
+            <td>Input user baru tapi blm ada data kolam</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>https://ghorilard.herokuapp.com/login/</td>
+            <td>GET</td>
+            <td>Null</td>
+            <td>Tampilan Login View</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>https://ghorilard.herokuapp.com/login/</td>
+            <td>POST</td>
+            <td>email_user, password</td>
+            <td>Untuk Login</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>https://ghorilard.herokuapp.com/logout/</td>
+            <td>POST</td>
+            <td></td>
+            <td>Untuk Logout (Under Construction)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>https://ghorilard.herokuapp.com/user/</td>
+            <td>GET</td>
+            <td>Null</td>
+            <td>Untuk mengambil semua user</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>https://ghorilard.herokuapp.com/user/:_id</td>
+            <td>GET</td>
+            <td>Null</td>
+            <td>Untuk mengambil user sesuai params id</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>https://ghorilard.herokuapp.com/user/:_id</td>
+            <td>PATCH</td>
+            <td>nama_user</td>
+            <td>Hanya mengganti nama user</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>https://ghorilard.herokuapp.com/user/:_id</td>
+            <td>DELETE</td>
+            <td>NULL</td>
+            <td>Delete user tertentu berdasarkan param id</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>https://ghorilard.herokuapp.com/kolam/:_id_user</td>
+            <td>POST</td>
+            <td>nama_kolam, kode_device(kode esp)</td>
+            <td>Tambahin kolam pada user tertentu</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>https://ghorilard.herokuapp.com/kolam/:_id_user</td>
+            <td>PATCH</td>
+            <td>kode_device, nama_kolam</td>
+            <td>Edit nama kolam saja berdasarkan kode_device</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>https://ghorilard.herokuapp.com/kolam/:_id_user</td>
+            <td>DELETE</td>
+            <td>id_kolam</td>
+            <td>Delete kolam sesuai id_kolam pada user tertentu</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>https://ghorilard.herokuapp.com/hist/:_kode_device</td>
+            <td>POST</td>
+            <td>water_temp, ph_meter</td>
+            <td>Input hist kolam dari device esp</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>https://ghorilard.herokuapp.com/hist/:_kode_device</td>
+            <td>PATCH</td>
+            <td>NULL</td>
+            <td>Update relay dari user ke device (pake button aja dan boolean)</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>https://ghorilard.herokuapp.com/hist/:_kode_device</td>
+            <td>GET</td>
+            <td>NULL</td>
+            <td>Hist per kolam untuk grafik</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>https://ghorilard.herokuapp.com/comment/:_id_user</td>
+            <td>GET</td>
+            <td>NULL</td>
+            <td>Untuk melihat comment per user</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>https://ghorilard.herokuapp.com/comment/:_id_user</td>
+            <td>POST</td>
+            <td>desc_comment, auth (1 = admin, 2 = user)</td>
+            <td>Untuk nambahin comment dimasukin ke array</td>
+        </tr>
+    </table>
+</body>
+</html>
