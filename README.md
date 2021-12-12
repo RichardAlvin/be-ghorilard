@@ -10,16 +10,38 @@
 
 Our Backend use NodeJs as base and ExpressJs as framework.
 
-There is some package you must install in your code editor to run Ghorilard Backend
+There is some depedencies you must install in your code editor to run Ghorilard Backend
  - nodemon
  - express
  - dotenv
  - cors
  - bcryptjs
  - jsonwebtoken
+ - Mongoose
+ - joi
+ - ejs
+ - socket.io
 
-### Local Setup
+### Get Started Backend
 
-first you must install node js and npm
+- Make sure you already install node js and npm
+  - Check in your Terminal or Command Prompt
+    ```
+    node -v
+    npm -v
+    ```
+- Initialize folder as NPM project
+  ```
+  npm init
+  ```
+  - This code will make package.json
+- Install all depedencies above
+  - You can use this command to install the depedency
+    ```
+    npm install nodemon
+    ```
+  - After you install, in the package.json, there is some depedencies list that you have install
+  - 
+-
 
 
