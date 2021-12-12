@@ -2,27 +2,26 @@
 
   This is backend and database structure for Ghorilard Project. Ghorilard is project to monitor water quality for shrimp farming using an IoT system and display sensor data to the website. Ghorilard checks water quality based on ph levels and temperature in the water. Ghorilard use Mongodb, ExpressJs, SvelteJs, and NodeJs for build website.
   
-  For frontend code, you check this github:
+- For frontend code, you check this github:
+- For device code, you can check this github:
   
-  For device code, you can check this github:
-  
-## 
-
 ## Backend
-
-Our Backend use NodeJs as base and ExpressJs as framework.
+  Ghorilard Backend use NodeJs as base and ExpressJs as framework. Ghorilard backend deploy or hosting in Heroku because its free and easy to use (many documentation). Ghorilard Backend use MVC model plus routes. So its easy to understand the code.
 
 There is some depedencies you must install in your code editor to run Ghorilard Backend
- - nodemon
- - express
- - dotenv
- - cors
- - bcryptjs
- - jsonwebtoken
- - Mongoose
- - joi
- - ejs
- - socket.io
+ - nodemon (Easy to run your code in localhost)
+ - express (Framework for NodeJs)
+ - dotenv (To make .env file for secret variabel)
+ - cors (Make FE can easily get API from BE without credentials problem)
+ - bcryptjs (To hash our password)
+ - jsonwebtoken (For authorization and authenticaiton)
+ - Mongoose (Like a framework for mongoDB)
+ - joi (For validate input form from user or device)
+ - ejs 
+ - socket.io (For real time chat application (helpdesk)
+
+## Database
+  Ghorilard database use mongodb and mongoose. Mongoose will help us to use mongodb syntax easily and efficient. Ghorilard database deploys in MongoDB Atlas because its free and easy to use with mongoose depedency.
 
 ## Get Started Backend (NodeJs)
 
@@ -67,9 +66,6 @@ In Ghorilard project, we use Mongodb Atlas to put our data. This is step if you 
 - DB_CONNECT is variabel that store in .env file. So you must make .env file and put the link from your mongodb Atlas if you have already make database.
   ```
   DB_CONNECT=mongodb+srv://username:password@cluster.sygau.mongodb.net/yourDatabase
-  ```
-
-## About Ghorilard Backend
-- 
+  ``` 
 
 
