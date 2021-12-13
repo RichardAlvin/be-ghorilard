@@ -2,8 +2,11 @@
 
   This is backend and database structure for Ghorilard Project. Ghorilard is project to monitor water quality for shrimp farming using an IoT system and display sensor data to the website. Ghorilard checks water quality based on ph levels and temperature in the water. Ghorilard use Mongodb, ExpressJs, SvelteJs, and NodeJs for build website.
   
-- For frontend code, you check this github:
-- For device code, you can check this github:
+- For Frontend of Ghorilard Project, Github Link: [https://github.com/ghofaralhasyim/fe-ghorilard](https://github.com/ghofaralhasyim/fe-ghorilard)
+
+- For End-Device of Ghorilard Project, Github Link: [https://github.com/ghofaralhasyim/end-device-ghorilard](https://github.com/ghofaralhasyim/end-device-ghorilard)
+
+- For Simulation and Description of Ghorilard Project, Youtube Link:
   
 ## Backend
   Ghorilard Backend use NodeJs as base and ExpressJs as framework. Ghorilard backend deploy or hosting in Heroku because its free and easy to use (many documentation). Ghorilard Backend use MVC model plus routes. So its easy to understand the code.
