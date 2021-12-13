@@ -4,9 +4,9 @@
   
 - For Frontend of Ghorilard Project, Github Link: [https://github.com/ghofaralhasyim/fe-ghorilard](https://github.com/ghofaralhasyim/fe-ghorilard)
 
-- For End-Device of Ghorilard Project, Github Link: [https://github.com/ghofaralhasyim/end-device-ghorilard](https://github.com/ghofaralhasyim/end-device-ghorilard)
+- For Backend of Ghorilard Project, Github Link: [https://github.com/RichardAlvin/be-ghorilard](https://github.com/RichardAlvin/be-ghorilard)
 
-- For Simulation and Description of Ghorilard Project, Youtube Link:
+- For Simulation and Description of Ghorilard Project, Youtube Link: https://youtu.be/ViWVCJh-_Is
   
 ## Backend
   Ghorilard Backend use NodeJs as base and ExpressJs as framework. Ghorilard backend deploy or hosting in Heroku because its free and easy to use (many documentation). Ghorilard Backend use MVC model plus routes. So its easy to understand the code.
