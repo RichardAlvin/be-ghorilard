@@ -50,6 +50,21 @@ There is some depedencies you must install in your code editor to run Ghorilard 
     ```
     touch app.js
     ```
+    
+- Install env depedencies
+  - You can use this command
+    ```
+    npm install dotenv
+    ```
+  - After you install, make .env file with this command
+    ```
+    touch .env
+    ```
+  - Open .env file and add some code with this code
+    ```
+    TOKEN_SECRET=uptoyou
+    DB_CONNECT= "use link that you get in MongoDB Atlas"
+    ```
 - You already to use the code without error
 
 ## Get Started Database (Mongodb)
