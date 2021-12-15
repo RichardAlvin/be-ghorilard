@@ -4,7 +4,7 @@
   
 - For Frontend of Ghorilard Project, Github Link: [https://github.com/ghofaralhasyim/ghorilard-pwa](https://github.com/ghofaralhasyim/ghorilard-pwa)
 
-- For Backend of Ghorilard Project, Github Link: [https://github.com/RichardAlvin/be-ghorilard](https://github.com/RichardAlvin/be-ghorilard)
+- For End Devcice of Ghorilard Project, Github Link: [https://github.com/ghofaralhasyim/end-device-ghorilard](https://github.com/ghofaralhasyim/end-device-ghorilard)
 
 - For Simulation and Description of Ghorilard Project, Youtube Link: https://youtu.be/ViWVCJh-_Is
   
