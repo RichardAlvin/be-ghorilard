@@ -85,5 +85,3 @@ In Ghorilard project, we use Mongodb Atlas to put our data. This is step if you 
   ```
   DB_CONNECT=mongodb+srv://username:password@cluster.sygau.mongodb.net/yourDatabase
   ``` 
-
-
